@@ -1,0 +1,172 @@
+.navbar {
+    background-color: #222831 !important;
+}
+
+#hero-section {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .6)),
+    url(img/geometry.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    min-height: 100vh;
+}
+
+.info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#headshot {
+    width: 32vh;
+    height: 32vh;
+    border-radius: 50%;
+    border: 8px solid rgba(0, 0, 0, .3);
+}
+
+h1 {
+    color: #EEEEEE;
+    font-family: "Bona Nova SC", sans-serif;
+    font-size: 7vh;
+    text-shadow: 2px 2px 4px black;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#hero-section p {
+    color: #EEEEEE;
+    font-family: "Nunito", sans-serif;
+    font-size: 3.25vh;
+    text-shadow: 2px 2px 4px black;
+}
+
+#about-section {
+    background-color: #31363F;
+    padding: 40px 20px;
+    color: #EEEEEE;
+    min-height: 250px;
+    scroll-margin-top: 50px;
+}
+
+h2 {
+    font-family: "Exo 2", sans-serif;
+    font-size: 5vh;
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#about-img {
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+    max-height: 95%;
+}
+
+#about-section p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Zain", sans-serif;
+    text-align: center;
+    padding: 0 30px;
+    height: 100%;
+    font-size: 24px;
+}
+
+#projects-section {
+    background: white;
+    color: black;
+    padding: 40px 30px;
+    min-height: 250px;
+    scroll-margin-top: 50px;
+}
+
+#projects-section .row > div {
+    display: flex;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    text-align: center;
+    padding: 20px 20px 40px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0 1px 2px 0, rgba(60, 64, 67, 0.15) 0 1px 3px 1px;
+}
+
+.project h3 {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.project small {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.project p {
+    font-family: "Zain", sans-serif;
+    font-size: 20px;
+}
+
+.git-link {
+    width: 150px;
+    height: 150px;
+    transition: transform 0.2s ease-in-out;
+}
+
+@media (any-hover: hover) {
+    .git-link:hover {
+        transform: scale(1.1);
+    }
+}
+
+.sm-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#contact-section {
+    background: #31363F;
+    color: #BFCFE7;
+    padding: 40px 20px;
+    min-height: 250px;
+    scroll-margin-top: 50px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-icon {
+    margin-bottom: 30px;
+    color: #BFCFE7;
+    transition: 0.5s;
+}
+
+@media (hover: hover) {
+    .contact-icon:hover {
+        color: #EEEEEE;
+        transition: 0.5s;
+    }
+}
+
+#footer-section {
+    background: #222831;
+    color: #EEEEEE;
+    height: 50px;
+    text-align: center;
+    padding: 12px;
+}
+

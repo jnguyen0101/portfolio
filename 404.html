@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 Not Found</title>
+  <link rel="icon" href="/img/tag.ico" type="image/x-icon">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+      body {
+          background-color: #f8f9fa;
+          font-family: 'Nunito', sans-serif;
+          color: #31363F;
+          height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+
+      .error-container {
+          text-align: center;
+          padding: 2rem;
+      }
+
+      .error-code {
+          font-size: 6rem;
+          font-weight: 700;
+          color: #222831;
+          font-family: 'Exo 2', sans-serif;
+      }
+
+      .error-message {
+          font-size: 1.5rem;
+          margin-bottom: 1rem;
+      }
+
+      .home-btn {
+          margin-top: 1rem;
+      }
+
+      .gear-icon {
+          font-size: 3rem;
+          color: #adb5bd;
+          animation: spin 4s linear infinite;
+      }
+
+      @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+      }
+  </style>
+</head>
+<body>
+<div class="error-container">
+  <div class="gear-icon mb-3">
+    <i class="bi bi-gear-fill"></i>
+  </div>
+  <div class="error-code">404</div>
+  <div class="error-message">Oops! The page you're looking for doesn't exist.</div>
+  <p>It might have been moved, deleted, or never existed in the first place.</p>
+  <a href="/" class="btn btn-dark home-btn">
+    <i class="bi bi-house-door"></i> Back to Home
+  </a>
+</div>
+</body>
+</html>
